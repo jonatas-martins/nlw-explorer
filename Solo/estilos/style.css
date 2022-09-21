@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../images/Fundo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+#perfil {
+  margin-top: 32px;
+  border-radius: 50%;
+  border: 4px solid;
+  background: linear-gradient(white, white) padding-box,
+    linear-gradient(90deg, #440bec 0%, #43e7ad 50.52%, #e2d45c 100%) border-box;
+  border-color: transparent;
+}
+
+.my-games {
+  background-color: #443e54;
+  width: 370px;
+  height: 264px;
+  border-radius: 8px;
+  border-top: 4px solid;
+  background: linear-gradient(#443e54, #443e54) padding-box,
+    linear-gradient(90deg, #440bec 0%, #43e7ad 50.52%, #e2d45c 100%) border-box;
+  border-color: transparent;
+}
+
+.subtit {
+  color: white;
+  margin-top: 24px;
+  margin-left: 32px;
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.paragraph {
+  margin-left: 32px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #a1a1aa;
+}
+
+.games-list {
+  display: flex;
+  flex-direction: row;
+  margin-left: 32px;
+  margin-top: 24px;
+  gap: 16px;
+}
+
+.img-games-list {
+  border-radius: 8px;
+}
+
+.img-canais-list {
+  border-radius: 50%;
+}
+
+.logo-github {
+  border-radius: 10px;
+}
+
+.favorit-channel {
+  background-color: #443e54;
+  width: 370px;
+  height: 214px;
+  border-top: 4px solid;
+  background: linear-gradient(#443e54, #443e54) padding-box,
+    linear-gradient(90deg, #440bec 0%, #43e7ad 50.52%, #e2d45c 100%) border-box;
+  border-color: transparent;
+  border-radius: 8px;
+}
+
+.social-media {
+  background-color: #443e54;
+  width: 370px;
+  height: 176px;
+  border-top: 4px solid;
+  background: linear-gradient(#443e54, #443e54) padding-box,
+    linear-gradient(90deg, #440bec 0%, #43e7ad 50.52%, #e2d45c 100%) border-box;
+  border-color: transparent;
+  border-radius: 8px;
+}
+
+li {
+  list-style-type: none;
+}

@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+  .my-games {
+    width: 580px;
+  }
+  .favorit-channel {
+    width: 580px;
+  }
+  .social-media {
+    width: 580px;
+  }
+}
